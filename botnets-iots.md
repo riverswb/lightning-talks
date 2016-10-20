@@ -19,16 +19,16 @@
 
 ### Distributed Denial of Service (DDoS) attacks, the basics
 * If you want to take a network off the internet, the easiest way to do it is with a distributed denial of service attack.
-* There are different types of attacks, but basically it means sending so much data at the site that it's overwhelemed, and not available to legitimate users
+* There are different types of attacks, but basically it means sending so much data at the site that it's overwhelmed, and not available to legitimate users
 * There is an entire industry, with many technologies, devoted to DDoS defense.
 * Even with an arsenal of defense, it basically comes down to a matter of bandwidth:
   * If the attacker can send more data than the defender can absorb, the website goes down and the attacker wins.
-  
+
 
 
 ## The Internet of Things (IoT)
 ### What the iota huh?
-* the internetworking of physical devices, vehicles, buildings, items that exchange data
+* the inter-networking of physical devices, vehicles, buildings, items that exchange data
   * items embedded with electronics, software, sensors, actuators, and network connectivity that enables these objects to collect and exchange data
 * The Global Standards Initiative on Internet of Things defined the IoT as "the infrastructure for the information society"
 * Estimated that the IoT will consist of almost 50 billion objects by 20202
@@ -52,15 +52,21 @@
 * Due to the specialized nature of embedded systems, typical computer/ network security solutions won't even run on most embedded devices
 * the majority of these embedded devices rely on simple password authentication and security protocols because it was assumed that embedded devices are not an attractive target to hackers
 
-## The IoT Things are Under Attack / Someone is learning how to break the internet
-* In late September, [Krebs On Security](https://krebsonsecurity.com), was the target of an extremely large and unusual DDoS attack.
+## They Assumed Wrong. The IoT Things are Under Attack (Hide your kids, hide your wife...)
+* In late September [Krebs On Security](https://krebsonsecurity.com), a security news and investigation site, an was the target of an extremely large and unusual DDoS attack, after breaking a story that lead to the arrest of 2, 19 year old Israel men that were linked to one of the largest DDoS for hire services
+* What makes this attack stand out:
   * Average peak size of a large DDoS attack at the end of 2015 was 6.88 Gbps
   * The Largest and most sophisticated typically peaked at 12 Gbps at that time
   * the attack on Krebs on Security was 620 Gbps, which according to Akamai Technologies (a DDoS protection service) was nearly twice as large as any DDoS the company had ever seen.
-  * not only was this extremely large, but how it was accomplished without amplification may have been unprecedented:
+  * Experts noted that the size of the attack was unprecedented because it did not rely on amplification techniques and instead relied on a botnet of compromised devices (cue scary music)
+    * ([DNS amplification attack](http://whatis.techtarget.com/definition/DNS-amplification-attack)) Basically, this is a popular type of DDoS that allows the data being sent out to be multiplied, so that by the time it reaches the target it is up to 100x its original size.  
+  * the evidence points to a botnet comprised of IoT devices, such as routers, IP cameras, and DVRs
+
+* a European web hosting firm, OVH, also confirmed it was hit with even more powerful DDoS attacks later that week.  
+  * they made public that the attacks totaled more than 1 Tbps.
+  * they discovered that the botnet behind the attack used more than 145,000 infected DVR's and Internet-connected cameras, it is believed this bot net would be capable of sending 1.5 Tbps in a DDoS attack.  
 
 
-  ![Tweet ](/desktop/Screen Shot 2016-10-19 at 5.45.29 PM.png)
 
 
 http://searchsecurity.techtarget.com/news/450305010/Powerful-DDoS-attacks-leveraging-IoT-devices-hit-several-companies
