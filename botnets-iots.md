@@ -1,7 +1,7 @@
 # Botnets and the Internet of Things
 
 ## Botnets
-### The fuck is a botnet?
+### What is a botnet?
 * a botnet is a network of computers which have been infected with malware, allowing them to be remotely controlled.  
 * botnets can consist of hundreds of thousands (even millions) of computers
 * the infected computer becomes a part of the botnet when it is in contact with a remote server, or other bots, and takes commands from whoever is in control of the botnet
